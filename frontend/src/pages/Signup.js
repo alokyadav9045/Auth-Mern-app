@@ -27,7 +27,7 @@ function Signup() {
             return handleError('name, email and password are required')
         }
         try {
-            const url = "https://auth-mern-app-iu0asgv7j-alokyadav9045s-projects.vercel.app/auth/signup";
+            const url = "https://auth-mern-app-api-eosin.vercel.app/auth/signup";
             const response = await fetch(url, {
                 method: "POST",
                 headers: {
