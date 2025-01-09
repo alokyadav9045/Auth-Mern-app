@@ -1,0 +1,72 @@
+*,::before,
+::after{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+label{
+  font-size: 20px;
+  display: flex;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  background-color: beige;
+}
+body { 
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {  
+  background-color:#fff;
+  padding: 49px 48px;
+  border-radius: 10px;
+  width: auto;
+  height: auto;
+  max-width: 500px;
+  box-shadow: 10px 10px 24px 0px rgba( 66 ,68,90,1);
+
+}
+.container h2 {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.container > form{
+  display: flex;
+  flex-direction: column;
+  
+
+}
+.container input{
+  font-size: 19px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #0c0b0b;
+}
+
+.container input::placeholder{
+  font-size: 15px;
+  font-style: italic;
+}
+ button{
+  background-color: aquamarine;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 20px 0;
+  transition: background-color 0.3s ease;
+}
+.logout{
+  background-color: darkgoldenrod;
+  width: 200px;
+}
