@@ -4,7 +4,7 @@ const { signupValiation, loginValiation } = require('../Middlewares/Authvalidati
 
 const router = express.Router();
 
-router.post('/login', loginValiation, login,message:"login");
+router.post('/login', loginValiation, login);
 router.post('/signup', signupValiation, signup);
 
 module.exports = router;
