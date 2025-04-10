@@ -10,11 +10,7 @@ router.get('/', ensureAuthenticated, (req, res) => {
             course: "BCA",
             Jobrole:"Full Stack Developer"
         },
-        {
-            name: 'Atul Kumar',
-            course: "BCA",
-            Jobrole:" Java Developer"
-        }
+        
     ]);
 });
 
